@@ -1,0 +1,206 @@
+.contact-us{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.contact-header{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-header h1{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: #131313;
+}
+
+.contact-header h1:nth-child(1){
+    color: #023079;
+    margin-right: 10px;
+}
+
+.contact-desc-header h2{
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    color: #131313;
+    margin-top: 20px;
+}
+
+.contact-desc-1{
+    width: 700px;
+    padding-right: 50px;
+}
+
+.contact-desc-1 p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.contact-details{
+    margin-top: 30px;
+}
+
+.contact-details-header h3{
+    font-size: 20px;
+}
+
+.contact-details-header h3:nth-child(2){
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.contact-details .number a{
+    text-decoration: none;
+    color: #023079;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.business-hours{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+
+@media (max-width: 1200px){
+    .contact-us{
+        width: 1000px;
+    }
+}
+
+
+@media (max-width: 1050px){
+    .contact-us{
+        width: 950px;
+    }
+}
+
+@media (max-width: 1000px){
+    .contact-us{
+        width: 900px;
+    }
+
+    .contact-desc-1{
+        width: 500px;
+    }
+}
+
+@media (max-width: 900px){
+    .contact-us{
+        width: 800px;
+    }
+
+    .contact-desc-1{
+        width: 500px;
+    }
+}
+
+@media (max-width: 850px){
+    .contact-header h1{
+        font-size: 32px;
+    }
+
+    .contact-desc-header h2{
+        font-size: 28px;
+    }
+
+    .contact-us{
+        width: 700px;
+    }
+
+    .contact-desc-1{
+        width: 450px;
+    }
+}
+
+@media (max-width: 750px){
+    .contact-flex{
+        flex-direction: column;
+        width: 400px;
+        margin: 0 auto;
+    }
+    .contact-header{
+        display: block;
+    }
+    .contact-header h1{
+        font-size: 28px;
+        width: 400px;
+        margin: 0 auto;
+    }
+    .contact-desc-header h2{
+        font-size: 24px;
+    }
+    .contact-us{
+        width: 400px;
+    }
+    .contact-desc-1{
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px){
+    .contact-header h1{
+        width: 400px;
+    }
+    .contact-us{
+        width: 400px;
+    }
+    .contact-desc-1{
+        width: 400px;
+    }
+}
+
+
+@media (max-width: 450px){
+    .contact-flex{
+        width: 375px;
+    }
+    .contact-header h1{
+        width: 375px;
+    }
+    .contact-us{
+        width: 375px;
+    }
+    .contact-desc-1{
+        width: 375px;
+    }
+}
+
+@media (max-width: 400px){
+    .contact-flex{
+        width: 350px;
+    }
+    .contact-header h1{
+        font-size: 26px;
+        width: 350px;
+    }
+    .contact-us{
+        width: 350px;
+    }
+    .contact-desc-1{
+        width: 350px;
+    }
+}
+
+@media (max-width: 375px){
+    .contact-flex{
+        width: 325px;
+    }
+    .contact-header h1{
+        font-size: 24px;
+        width: 325px;
+    }
+    .contact-us{
+        width: 325px;
+    }
+    .contact-desc-1{
+        width: 325px;
+    }
+}

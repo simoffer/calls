@@ -1,0 +1,830 @@
+.wrap-identify-pest{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.identify-pest-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.identify-pest-header h1{
+    font-size: 45px;
+    color: #131313;
+    font-family: 'Oswald', sans-serif;
+}
+
+.identify-pest-header h1:nth-child(1){
+    color: #023079;
+    margin-right: 10px;
+}
+
+.identify-pest-sub-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.identify-pest-sub-header h2{
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    color: #131313;
+}
+
+.identify-pest-desc p{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* === === ===
+=== === === ===
+    === === ===
+*/
+.ANTS,
+.DOCKTICK{
+    background: #023079;
+    padding: 50px 0;
+    color: #fff;
+}
+
+/*  */
+.MOUSE,
+.SPIDER,
+.SILVERFISH{
+    padding: 50px 0;
+}
+/*  */
+
+.COCKROACH,
+.JACKETS{
+    background: #BEF2FF;
+    padding: 50px 0;
+}
+
+
+.wrap-ANTS,
+.wrap-MOUSE,
+.wrap-COCKROACH,
+.wrap-SPIDER,
+.wrap-DOCKTICK,
+.wrap-SILVERFISH,
+.wrap-JACKETS{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.ant-1,
+.ant-2,
+.ant-3,
+.mouse-1,
+.mouse-2,
+.mouse-3,
+.cockroach-1,
+.cockroach-2,
+.cockroach-3,
+.spider-1,
+.spider-2,
+.spider-3,
+.dockTick-1,
+.dockTick-2,
+.dockTick-3,
+.silverfish-1,
+.silverfish-2,
+.silverfish-3,
+.jackets-1,
+.jackets-2{
+    display: flex;
+    align-items: center;
+}
+
+.ant-1-header h2,
+.ant-2-header h2,
+.ant-3-header h2,
+.dockTick-1-header h2,
+.dockTick-2-header h2,
+.dockTick-3-header h2{
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    color: #dadada;
+}
+/*  */
+.mouse-1-header h2,
+.mouse-2-header h2,
+.mouse-3-header h2,
+.cockroach-1-header h2,
+.cockroach-2-header h2,
+.cockroach-3-header h2,
+.spider-1-header h2,
+.spider-2-header h2,
+.spider-3-header h2,
+.silverfish-1-header h2,
+.silverfish-2-header h2,
+.silverfish-3-header h2,
+.jackets-1-header h2,
+.jackets-2-header h2{
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    color: #131212;
+}
+/*  */
+
+.ant-1-desc,
+.ant-3-desc,
+.mouse-1-desc,
+.mouse-3-desc,
+.cockroach-1-desc,
+.cockroach-3-desc,
+.spider-1-desc,
+.spider-3-desc,
+.dockTick-1-desc,
+.dockTick-3-desc,
+.silverfish-1-desc,
+.silverfish-3-desc,
+.jackets-1-desc{
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.ant-1-desc p,
+.ant-2-desc p,
+.ant-3-desc p,
+.mouse-1-desc p,
+.mouse-2-desc p,
+.mouse-3-desc p,
+.spider-1-desc p,
+.spider-2-desc p,
+.spider-3-desc p,
+.dockTick-1-desc p,
+.dockTick-2-desc p,
+.dockTick-3-desc p,
+.silverfish-1-desc p,
+.silverfish-2-desc p,
+.silverfish-3-desc p,
+.jackets-1-desc p,
+.jackets-2-desc p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+
+.cockroach-1-desc p,
+.cockroach-2-desc p,
+.cockroach-3-desc p,
+.jackets-1-desc p,
+.jackets-2-desc p{
+    font-size: 18px;
+    text-align: justify;
+    color: #131313;
+}
+
+.ant-1-desc p:nth-child(2),
+.ant-2-desc p:nth-child(2),
+.ant-3-desc p:nth-child(2),
+.mouse-1-desc p:nth-child(2),
+.mouse-2-desc p:nth-child(2),
+.mouse-3-desc p:nth-child(2),
+.cockroach-1-desc p:nth-child(2),
+.cockroach-2-desc p:nth-child(2),
+.cockroach-3-desc p:nth-child(2),
+.spider-1-desc p:nth-child(2),
+.spider-2-desc p:nth-child(2),
+.spider-3-desc p:nth-child(2),
+.dockTick-1-desc p:nth-child(2),
+.dockTick-2-desc p:nth-child(2),
+.dockTick-3-desc p:nth-child(2),
+.silverfish-1-desc p:nth-child(2),
+.silverfish-2-desc p:nth-child(2),
+.silverfish-3-desc p:nth-child(2),
+.jackets-1-desc p:nth-child(2),
+.jackets-2-desc p:nth-child(2){
+    margin-top: 10px;
+}
+
+.ant-image img,
+.ant-image2 img,
+.ant-image3 img,
+.mouse-image1 img,
+.mouse-image2 img,
+.mouse-image3 img,
+.cockroach-image1 img,
+.cockroach-image2 img,
+.cockroach-image3 img,
+.spider-image1 img,
+.spider-image2 img,
+.spider-image3 img,
+.dockTick-image1 img,
+.dockTick-image2 img,
+.dockTick-image3 img,
+.silverfish-image1 img,
+.silverfish-image2 img,
+.silverfish-image3 img,
+.jackets-image1 img,
+.jackets-image2 img{
+    width: 300px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(228, 228, 228);
+}
+
+/* Extra 2 */
+.ant-2,
+.mouse-2,
+.cockroach-2,
+.spider-2,
+.dockTick-2,
+.silverfish-2,
+.jackets-2{
+    margin: 30px 0;
+}
+
+.ant-2-header,
+.ant-2-desc,
+.mouse-2-header,
+.mouse-2-desc,
+.cockroach-2-header,
+.cockroach-2-desc,
+.spider-2-header,
+.spider-2-desc,
+.dockTick-2-header,
+.dockTick-2-desc,
+.silverfish-2-header,
+.silverfish-2-desc,
+.jackets-2-header,
+.jackets-2-desc{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+
+@media (max-width: 1300px){
+    .wrap-identify-pest,
+    .wrap-ANTS,
+    .wrap-MOUSE,
+    .wrap-COCKROACH,
+    .wrap-SPIDER,
+    .wrap-DOCKTICK,
+    .wrap-SILVERFISH,
+    .wrap-JACKETS{
+        width: 1100px;
+    }
+}
+
+@media (max-width: 1200px){
+    .wrap-identify-pest,
+    .wrap-ANTS,
+    .wrap-MOUSE,
+    .wrap-COCKROACH,
+    .wrap-SPIDER,
+    .wrap-DOCKTICK,
+    .wrap-SILVERFISH,
+    .wrap-JACKETS{
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1050px){
+    .wrap-identify-pest,
+    .wrap-ANTS,
+    .wrap-MOUSE,
+    .wrap-COCKROACH,
+    .wrap-SPIDER,
+    .wrap-DOCKTICK,
+    .wrap-SILVERFISH,
+    .wrap-JACKETS{
+        width: 900px;
+    }
+
+    .cockroach-1-desc p,
+    .cockroach-2-desc p,
+    .cockroach-3-desc p,
+    .jackets-1-desc p,
+    .jackets-2-desc p, 
+    .ant-1-desc p,
+    .ant-2-desc p,
+    .ant-3-desc p,
+    .mouse-1-desc p,
+    .mouse-2-desc p,
+    .mouse-3-desc p,
+    .spider-1-desc p,
+    .spider-2-desc p,
+    .spider-3-desc p,
+    .dockTick-1-desc p,
+    .dockTick-2-desc p,
+    .dockTick-3-desc p,
+    .silverfish-1-desc p,
+    .silverfish-2-desc p,
+    .silverfish-3-desc p,
+    .jackets-1-desc p,
+    .jackets-2-desc p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 950px){
+    .wrap-identify-pest,
+    .wrap-ANTS,
+    .wrap-MOUSE,
+    .wrap-COCKROACH,
+    .wrap-SPIDER,
+    .wrap-DOCKTICK,
+    .wrap-SILVERFISH,
+    .wrap-JACKETS{
+        width: 700px;
+    }
+
+    .ant-2-header,
+    .ant-2-desc,
+    .mouse-2-header,
+    .mouse-2-desc,
+    .cockroach-2-header,
+    .cockroach-2-desc,
+    .spider-2-header,
+    .spider-2-desc,
+    .dockTick-2-header,
+    .dockTick-2-desc,
+    .silverfish-2-header,
+    .silverfish-2-desc,
+    .jackets-2-header,
+    .jackets-2-desc{
+        margin-left: 30px;
+    }
+
+    .ant-1-desc,
+    .ant-3-desc,
+    .mouse-1-desc,
+    .mouse-3-desc,
+    .cockroach-1-desc,
+    .cockroach-3-desc,
+    .spider-1-desc,
+    .spider-3-desc,
+    .dockTick-1-desc,
+    .dockTick-3-desc,
+    .silverfish-1-desc,
+    .silverfish-3-desc,
+    .jackets-1-desc{
+        margin-right: 30px;
+    }
+
+    .ant-1,
+    .ant-3,
+    .mouse-1,
+    .mouse-3,
+    .cockroach-1,
+    .cockroach-3,
+    .spider-1,
+    .spider-3,
+    .dockTick-1,
+    .dockTick-3,
+    .silverfish-1,
+    .silverfish-3,
+    .jackets-1{
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .ant-2,
+    .mouse-2,
+    .cockroach-2,
+    .spider-2,
+    .dockTick-2,
+    .silverfish-2,
+    .jackets-2{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .ant-image img,
+    .ant-image2 img,
+    .ant-image3 img,
+    .mouse-image1 img,
+    .mouse-image2 img,
+    .mouse-image3 img,
+    .cockroach-image1 img,
+    .cockroach-image2 img,
+    .cockroach-image3 img,
+    .spider-image1 img,
+    .spider-image2 img,
+    .spider-image3 img,
+    .dockTick-image1 img,
+    .dockTick-image2 img,
+    .dockTick-image3 img,
+    .silverfish-image1 img,
+    .silverfish-image2 img,
+    .silverfish-image3 img,
+    .jackets-image1 img,
+    .jackets-image2 img{
+        width: 500px;
+        margin-top: 20px;
+    }
+
+    .ant-2-header,
+    .ant-2-desc,
+    .mouse-2-header,
+    .mouse-2-desc,
+    .cockroach-2-header,
+    .cockroach-2-desc,
+    .spider-2-header,
+    .spider-2-desc,
+    .dockTick-2-header,
+    .dockTick-2-desc,
+    .silverfish-2-header,
+    .silverfish-2-desc,
+    .jackets-2-header,
+    .jackets-2-desc{
+        margin-left: 0px;
+    }
+
+    .ant-1-desc,
+    .ant-3-desc,
+    .mouse-1-desc,
+    .mouse-3-desc,
+    .cockroach-1-desc,
+    .cockroach-3-desc,
+    .spider-1-desc,
+    .spider-3-desc,
+    .dockTick-1-desc,
+    .dockTick-3-desc,
+    .silverfish-1-desc,
+    .silverfish-3-desc,
+    .jackets-1-desc{
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 750px){
+
+    .identify-pest-header h1{
+        font-size: 40px;
+    }
+
+    .identify-pest-sub-header h2{
+        font-size: 24px;
+    }
+
+    .identify-pest-desc p{
+        font-size: 16px;
+    }
+
+    .wrap-identify-pest,
+    .wrap-ANTS,
+    .wrap-MOUSE,
+    .wrap-COCKROACH,
+    .wrap-SPIDER,
+    .wrap-DOCKTICK,
+    .wrap-SILVERFISH,
+    .wrap-JACKETS{
+        width: 600px;
+    }
+
+    .ant-1,
+    .ant-3,
+    .mouse-1,
+    .mouse-3,
+    .cockroach-1,
+    .cockroach-3,
+    .spider-1,
+    .spider-3,
+    .dockTick-1,
+    .dockTick-3,
+    .silverfish-1,
+    .silverfish-3,
+    .jackets-1{
+        width: 600px;
+    }
+
+    .ant-2,
+    .mouse-2,
+    .cockroach-2,
+    .spider-2,
+    .dockTick-2,
+    .silverfish-2,
+    .jackets-2{
+        width: 600px;
+    }
+}
+
+@media (max-width: 650px){
+
+    .identify-pest-header h1{
+        font-size: 38px;
+    }
+
+    .identify-pest-sub-header h2{
+        font-size: 22px;
+    }
+
+    .wrap-identify-pest,
+    .wrap-ANTS,
+    .wrap-MOUSE,
+    .wrap-COCKROACH,
+    .wrap-SPIDER,
+    .wrap-DOCKTICK,
+    .wrap-SILVERFISH,
+    .wrap-JACKETS{
+        width: 500px;
+    }
+
+    .ant-1,
+    .ant-3,
+    .mouse-1,
+    .mouse-3,
+    .cockroach-1,
+    .cockroach-3,
+    .spider-1,
+    .spider-3,
+    .dockTick-1,
+    .dockTick-3,
+    .silverfish-1,
+    .silverfish-3,
+    .jackets-1{
+        width: 500px;
+    }
+
+    .ant-2,
+    .mouse-2,
+    .cockroach-2,
+    .spider-2,
+    .dockTick-2,
+    .silverfish-2,
+    .jackets-2{
+        width: 500px;
+    }
+}
+
+@media (max-width: 550px){
+
+    .identify-pest-sub-header h2{
+        font-size: 20px;
+    }
+
+    .wrap-identify-pest,
+    .wrap-ANTS,
+    .wrap-MOUSE,
+    .wrap-COCKROACH,
+    .wrap-SPIDER,
+    .wrap-DOCKTICK,
+    .wrap-SILVERFISH,
+    .wrap-JACKETS{
+        width: 400px;
+    }
+
+    .ant-1,
+    .ant-3,
+    .mouse-1,
+    .mouse-3,
+    .cockroach-1,
+    .cockroach-3,
+    .spider-1,
+    .spider-3,
+    .dockTick-1,
+    .dockTick-3,
+    .silverfish-1,
+    .silverfish-3,
+    .jackets-1{
+        width: 400px;
+    }
+
+    .ant-2,
+    .mouse-2,
+    .cockroach-2,
+    .spider-2,
+    .dockTick-2,
+    .silverfish-2,
+    .jackets-2{
+        width: 400px;
+    }
+    .ant-image img,
+    .ant-image2 img,
+    .ant-image3 img,
+    .mouse-image1 img,
+    .mouse-image2 img,
+    .mouse-image3 img,
+    .cockroach-image1 img,
+    .cockroach-image2 img,
+    .cockroach-image3 img,
+    .spider-image1 img,
+    .spider-image2 img,
+    .spider-image3 img,
+    .dockTick-image1 img,
+    .dockTick-image2 img,
+    .dockTick-image3 img,
+    .silverfish-image1 img,
+    .silverfish-image2 img,
+    .silverfish-image3 img,
+    .jackets-image1 img,
+    .jackets-image2 img{
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px){
+
+    .identify-pest-sub-header h2{
+        font-size: 20px;
+    }
+
+    .wrap-identify-pest,
+    .wrap-ANTS,
+    .wrap-MOUSE,
+    .wrap-COCKROACH,
+    .wrap-SPIDER,
+    .wrap-DOCKTICK,
+    .wrap-SILVERFISH,
+    .wrap-JACKETS{
+        width: 350px;
+    }
+
+    .ant-1,
+    .ant-3,
+    .mouse-1,
+    .mouse-3,
+    .cockroach-1,
+    .cockroach-3,
+    .spider-1,
+    .spider-3,
+    .dockTick-1,
+    .dockTick-3,
+    .silverfish-1,
+    .silverfish-3,
+    .jackets-1{
+        width: 350px;
+    }
+
+    .ant-2,
+    .mouse-2,
+    .cockroach-2,
+    .spider-2,
+    .dockTick-2,
+    .silverfish-2,
+    .jackets-2{
+        width: 350px;
+    }
+    .ant-image img,
+    .ant-image2 img,
+    .ant-image3 img,
+    .mouse-image1 img,
+    .mouse-image2 img,
+    .mouse-image3 img,
+    .cockroach-image1 img,
+    .cockroach-image2 img,
+    .cockroach-image3 img,
+    .spider-image1 img,
+    .spider-image2 img,
+    .spider-image3 img,
+    .dockTick-image1 img,
+    .dockTick-image2 img,
+    .dockTick-image3 img,
+    .silverfish-image1 img,
+    .silverfish-image2 img,
+    .silverfish-image3 img,
+    .jackets-image1 img,
+    .jackets-image2 img{
+        width: 350px;
+    }
+}
+
+@media (max-width: 400px){
+
+    .identify-pest-header h1{
+        font-size: 32px;
+    }
+
+    .identify-pest-sub-header h2{
+        font-size: 20px;
+    }
+
+    .wrap-identify-pest,
+    .wrap-ANTS,
+    .wrap-MOUSE,
+    .wrap-COCKROACH,
+    .wrap-SPIDER,
+    .wrap-DOCKTICK,
+    .wrap-SILVERFISH,
+    .wrap-JACKETS{
+        width: 325px;
+    }
+
+    .ant-1,
+    .ant-3,
+    .mouse-1,
+    .mouse-3,
+    .cockroach-1,
+    .cockroach-3,
+    .spider-1,
+    .spider-3,
+    .dockTick-1,
+    .dockTick-3,
+    .silverfish-1,
+    .silverfish-3,
+    .jackets-1{
+        width: 325px;
+    }
+
+    .ant-2,
+    .mouse-2,
+    .cockroach-2,
+    .spider-2,
+    .dockTick-2,
+    .silverfish-2,
+    .jackets-2{
+        width: 325px;
+    }
+    .ant-image img,
+    .ant-image2 img,
+    .ant-image3 img,
+    .mouse-image1 img,
+    .mouse-image2 img,
+    .mouse-image3 img,
+    .cockroach-image1 img,
+    .cockroach-image2 img,
+    .cockroach-image3 img,
+    .spider-image1 img,
+    .spider-image2 img,
+    .spider-image3 img,
+    .dockTick-image1 img,
+    .dockTick-image2 img,
+    .dockTick-image3 img,
+    .silverfish-image1 img,
+    .silverfish-image2 img,
+    .silverfish-image3 img,
+    .jackets-image1 img,
+    .jackets-image2 img{
+        width: 325px;
+    }
+}
+
+@media (max-width: 350px){
+
+    .identify-pest-header h1{
+        font-size: 30px;
+    }
+
+    .wrap-identify-pest,
+    .wrap-ANTS,
+    .wrap-MOUSE,
+    .wrap-COCKROACH,
+    .wrap-SPIDER,
+    .wrap-DOCKTICK,
+    .wrap-SILVERFISH,
+    .wrap-JACKETS{
+        width: 300px;
+    }
+
+    .ant-1,
+    .ant-3,
+    .mouse-1,
+    .mouse-3,
+    .cockroach-1,
+    .cockroach-3,
+    .spider-1,
+    .spider-3,
+    .dockTick-1,
+    .dockTick-3,
+    .silverfish-1,
+    .silverfish-3,
+    .jackets-1{
+        width: 300px;
+    }
+
+    .ant-2,
+    .mouse-2,
+    .cockroach-2,
+    .spider-2,
+    .dockTick-2,
+    .silverfish-2,
+    .jackets-2{
+        width: 300px;
+    }
+    .ant-image img,
+    .ant-image2 img,
+    .ant-image3 img,
+    .mouse-image1 img,
+    .mouse-image2 img,
+    .mouse-image3 img,
+    .cockroach-image1 img,
+    .cockroach-image2 img,
+    .cockroach-image3 img,
+    .spider-image1 img,
+    .spider-image2 img,
+    .spider-image3 img,
+    .dockTick-image1 img,
+    .dockTick-image2 img,
+    .dockTick-image3 img,
+    .silverfish-image1 img,
+    .silverfish-image2 img,
+    .silverfish-image3 img,
+    .jackets-image1 img,
+    .jackets-image2 img{
+        width: 300px;
+    }
+}
